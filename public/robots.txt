@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://icanquit.app
+
+# Sitemaps
+Sitemap: https://icanquit.app/sitemap.xml
