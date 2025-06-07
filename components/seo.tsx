@@ -21,7 +21,7 @@ export function SEO({
   twitterHandle = "@icanquitapp",
 }: SEOProps) {
   const router = useRouter()
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://icanquit.app"
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://NextProduction.dev/i-can-quit"
   const canonicalUrlFull = canonicalUrl ? `${siteUrl}${canonicalUrl}` : `${siteUrl}${router.asPath}`
   const ogImageUrl = ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`
 

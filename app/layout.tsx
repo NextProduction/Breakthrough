@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://icanquit.app"),
+  metadataBase: new URL("https://NextProduction.dev/i-can-quit"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "ICanQuit - Open Source Habit Tracker",
     description: "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker.",
-    url: "https://icanquit.app",
+    url: "https://NextProduction.dev/i-can-quit",
     siteName: "ICanQuit",
     images: [
       {

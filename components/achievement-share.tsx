@@ -115,7 +115,7 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
 
   const shareToSocial = (platform: string) => {
     const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. #ICanQuit #HabitTracker #Recovery`
-    const url = "https://icanquit.app"
+    const url = "https://NextProduction.dev/i-can-quit"
 
     let shareUrl = ""
 
@@ -140,7 +140,7 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
   }
 
   const copyToClipboard = () => {
-    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. Check out ICanQuit - the open source habit tracker: https://icanquit.app #ICanQuit #HabitTracker #Recovery`
+    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. Check out ICanQuit - the open source habit tracker: https://NextProduction.dev/i-can-quit #ICanQuit #HabitTracker #Recovery`
     navigator.clipboard.writeText(text)
   }
 

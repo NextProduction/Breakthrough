@@ -68,7 +68,7 @@ export default function LandingPage() {
       price: "0",
       priceCurrency: "USD",
     },
-    screenshot: "https://icanquit.app/screenshot.png",
+    screenshot: "https://NextProduction.dev/i-can-quit/screenshot.png",
     featureList:
       "Privacy-First Design, Visual Progress Tracking, Achievement System, Neuroscience Education, Promise System, Open Source Community",
   }

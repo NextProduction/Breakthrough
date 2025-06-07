@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://icanquit.app
+Host: https://NextProduction.dev/i-can-quit
 
 # Sitemaps
-Sitemap: https://icanquit.app/sitemap.xml
+Sitemap: https://NextProduction.dev/i-can-quit/sitemap.xml

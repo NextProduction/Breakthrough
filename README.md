@@ -1,4 +1,4 @@
-# 🛡️ ICanQuit - Neuroscience-Based Habit Tracker
+# 🛡️ I Can Quit - Neuroscience-Based Habit Tracker
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -62,7 +62,7 @@
 
 1. **Clone the repository**
 \`\`\`bash
-git clone https://github.com/yourusername/icanquit.git
+git clone https://github.com/NextProduction/i-can-quit.git
 cd icanquit
 \`\`\`
 
