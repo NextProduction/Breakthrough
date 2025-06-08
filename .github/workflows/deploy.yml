@@ -25,14 +25,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: 'pnpm'
-      - name: Install pnpm
-        run: npm install -g pnpm
+          cache: 'npm'
+
       - name: Install dependencies
-        run: pnpm install
+        run: npm ci
 
       - name: Build Next.js App
-        run: pnpm build
+        run: npm run build
 
       - name: Upload artifact for deployment
         uses: actions/upload-pages-artifact@v3
