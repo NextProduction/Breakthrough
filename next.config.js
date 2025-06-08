@@ -23,7 +23,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output : "export"
 }
 
 // Bundle analyzer plugin - only active when ANALYZE=true
