@@ -43,7 +43,7 @@ export function CTASection({
                 <Button
                   size="lg"
                   variant="outline"
-                  className={`h-12 px-8 border-white text-white hover:bg-white hover:text-indigo-600`}
+                  className={`h-12 px-8 border-white text-indigo-400 hover:bg-white hover:text-indigo-600`}
                 >
                   {secondaryButtonText}
                 </Button>

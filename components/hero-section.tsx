@@ -4,17 +4,17 @@ import { Zap, Brain, Github } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-20 md:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-10 md:py-32">
       {/* Background pattern */}
       <div className="absolute inset-0 z-0 opacity-20">
-        <svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        {/* <svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
               <circle cx="1" cy="1" r="1" fill="#4f46e5" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
-        </svg>
+        </svg> */}
       </div>
 
       <div className="container relative z-10 mx-auto px-4">
@@ -24,8 +24,8 @@ export function HeroSection() {
             Open Source & Privacy-First
           </div>
 
-          <h1 className="mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-5xl font-extrabold leading-tight tracking-tight text-transparent md:text-7xl">
-            Break Free from Bad Habits
+          <h1 className="mb-6 text-5xl font-extrabold text-black leading-tight tracking-tight  md:text-6xl">
+            Break <span className="!bg-gradient-to-r !from-indigo-600 !to-purple-600 !bg-clip-text text-transparent font-bold">Free</span> from Bad Habits
           </h1>
 
           <p className="mx-auto mb-10 max-w-3xl text-xl leading-relaxed text-slate-600 md:text-2xl">
