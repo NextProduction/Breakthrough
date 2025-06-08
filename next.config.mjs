@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
-const isGithubPages = process.env.NODE_ENV === 'production';
-const repo = 'i-can-quit';
 
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['github.com', 'img.shields.io', 'nextproduction.dev'],
+    domains: ['icanquit.app', 'github.com', 'img.shields.io'],
     formats: ['image/avif', 'image/webp'],
     unoptimized: true,
   },
@@ -25,9 +23,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',
-  basePath: isGithubPages ? `/${repo}` : '',
-  assetPrefix: isGithubPages ? `/${repo}/` : ''
 }
 
 // Bundle analyzer plugin - only active when ANALYZE=true
