@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['icanquit.app', 'github.com', 'img.shields.io'],
+    domains: ['github.com', 'img.shields.io'],
     formats: ['image/avif', 'image/webp'],
     unoptimized: true,
   },
@@ -23,6 +23,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output : "export"
 }
 
 // Bundle analyzer plugin - only active when ANALYZE=true
