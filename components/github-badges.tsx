@@ -25,10 +25,10 @@ export function GitHubBadges() {
       link: "https://nextjs.org",
     },
     {
-      label: "Styled with",
-      message: "Tailwind",
+      label: "Delivered by ",
+      message: "NexProduction.dev",
       color: "38B2AC",
-      link: "https://tailwindcss.com",
+      link: "https://NexProduction.dev",
     },
     {
       label: "Stars",
@@ -49,7 +49,7 @@ export function GitHubBadges() {
           className="hover:opacity-80 transition-opacity"
         >
           <img
-            src={`https://img.BrainCircuits.io/badge/${encodeURIComponent(badge.label)}-${encodeURIComponent(badge.message)}-${badge.color}.svg`}
+            src={`https://img.shields.io/badge/${encodeURIComponent(badge.label)}-${encodeURIComponent(badge.message)}-${badge.color}.svg`}
             alt={`${badge.label} ${badge.message}`}
             className="h-5"
           />
