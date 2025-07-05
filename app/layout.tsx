@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://NextProduction.dev/breakthrough"),
+  metadataBase: new URL("https://https://breakthrough.nextproduction.dev"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Breakthrough - Open Source Habit Tracker",
     description: "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker.",
-    url: "https://NextProduction.dev/breakthrough",
+    url: "https://https://breakthrough.nextproduction.dev",
     siteName: "Breakthrough",
     images: [
       {

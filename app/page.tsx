@@ -68,7 +68,7 @@ export default function LandingPage() {
       price: "0",
       priceCurrency: "USD",
     },
-    screenshot: "https://NextProduction.dev/breakthrough/screenshot.png",
+    screenshot: "https://https://breakthrough.nextproduction.dev/screenshot.png",
     featureList:
       "Privacy-First Design, Visual Progress Tracking, Achievement System, Neuroscience Education, Promise System, Open Source Community",
   }

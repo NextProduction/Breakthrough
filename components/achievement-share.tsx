@@ -115,7 +115,7 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
 
   const shareToSocial = (platform: string) => {
     const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. #Breakthrough #HabitTracker #Recovery`
-    const url = "https://NextProduction.dev/breakthrough"
+    const url = "https://https://breakthrough.nextproduction.dev"
 
     let shareUrl = ""
 
@@ -140,7 +140,7 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
   }
 
   const copyToClipboard = () => {
-    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. Check out Breakthrough - the open source habit tracker: https://NextProduction.dev/breakthrough #Breakthrough #HabitTracker #Recovery`
+    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. Check out Breakthrough - the open source habit tracker: https://https://breakthrough.nextproduction.dev #Breakthrough #HabitTracker #Recovery`
     navigator.clipboard.writeText(text)
   }
 
