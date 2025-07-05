@@ -17,11 +17,11 @@ export function SEO({
   description = "The open-source, neuroscience-backed habit tracker designed to help you overcome unwanted habits with privacy-first tracking.",
   canonicalUrl,
   ogType = "website",
-  ogImage = "/og-image.png",
+  ogImage = "/Breakthrough.svg",
   twitterHandle = "@BreakthroughByNextProduction",
 }: SEOProps) {
   const router = useRouter()
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://https://breakthrough.nextproduction.dev"
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://breakthrough.nextproduction.dev"
   const canonicalUrlFull = canonicalUrl ? `${siteUrl}${canonicalUrl}` : `${siteUrl}${router.asPath}`
   const ogImageUrl = ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`
 

@@ -13,30 +13,30 @@ export default function manifest(): MetadataRoute.Manifest {
     orientation: "portrait",
     icons: [
       {
-        src: "/icon-192x192.png",
+        src: "/breakthrough.svg",
         sizes: "192x192",
-        type: "image/png",
+        type: "image/svg",
         purpose: "maskable",
       },
       {
-        src: "/icon-512x512.png",
+        src: "/breakthrough.svg",
         sizes: "512x512",
-        type: "image/png",
+        type: "image/svg",
         purpose: "any",
       },
     ],
     categories: ["health", "lifestyle", "productivity", "utilities"],
     screenshots: [
       {
-        src: "/screenshot-wide.png",
+        src: "/breakthrough.svg",
         sizes: "1280x720",
-        type: "image/png",
+        type: "image/svg",
         form_factor: "wide",
       },
       {
-        src: "/screenshot-narrow.png",
+        src: "/breakthrough.svg",
         sizes: "750x1334",
-        type: "image/png",
+        type: "image/svg",
         form_factor: "narrow",
       },
     ],

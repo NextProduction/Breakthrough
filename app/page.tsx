@@ -5,7 +5,7 @@ import { FeatureCard } from "@/components/feature-card"
 import { StatsSection } from "@/components/stats-section"
 import { Testimonial } from "@/components/testimonial"
 import { CTASection } from "@/components/cta-section"
-// import { SEO } from "@/components/seo"
+import { SEO } from "@/components/seo"
 import { StructuredData } from "@/components/structured-data"
 import { GitHubBadges } from "@/components/github-badges"
 import {
@@ -68,17 +68,17 @@ export default function LandingPage() {
       price: "0",
       priceCurrency: "USD",
     },
-    screenshot: "https://https://breakthrough.nextproduction.dev/screenshot.png",
+    screenshot: "https://breakthrough.nextproduction.dev/breakthrough.svg",
     featureList:
       "Privacy-First Design, Visual Progress Tracking, Achievement System, Neuroscience Education, Promise System, Open Source Community",
   }
 
   return (
     <>
-      {/* <SEO
+      <SEO
         title="Breakthrough - Break Free from Bad Habits | Open Source Habit Tracker"
         description="The neuroscience-backed habit tracker that helps you overcome unwanted habits with personalized insights, rewards, and a supportive community."
-      /> */}
+      />
       <StructuredData type="WebApplication" data={appStructuredData} />
 
       <div className="flex min-h-screen flex-col">
