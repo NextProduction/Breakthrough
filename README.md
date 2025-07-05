@@ -1,4 +1,4 @@
-# 🛡️ Breakthrough- Neuroscience-Based Habit Tracker
+# Breakthrough- Neuroscience-Based Habit Tracker
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -61,31 +61,31 @@
 ### Installation
 
 1. **Clone the repository**
-\`\`\`bash
+```bash
 git clone https://github.com/NextProduction/breakthrough.git
 cd Breakthrough
-\`\`\`
+```
 
 2. **Install dependencies**
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
 # or
 pnpm install
-\`\`\`
+```
 
 3. **Run the development server**
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-\`\`\`
+```
 
 4. **Open your browser**
-Navigate to [http://localhost:3000](http://localhost:3000)
+Navigate to [http://localhost:3012](http://localhost:3012)
 
 ## 📱 Usage Guide
 
@@ -224,21 +224,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌟 Success Stories
-
-> *"Breakthrough helped me understand what was happening in my brain during recovery. The neuroscience insights kept me motivated when things got tough."* - Sarah M.
-
-> *"The custom rewards system was a game-changer. Having something to look forward to at each milestone made all the difference."* - Mike R.
-
-> *"Being able to track multiple habits and see my overall progress gave me confidence that I could change my life."* - Alex T.
-
----
-
-**Ready to transform your life? Start your journey with Breakthrough today!** 🚀
-
----
 
 <div align="center">
-  <p><strong>Delivered by Next Production</strong></p>
-  <p>© 2024 Breakthrough. Licensed under MIT. Built with ❤️ for the community.</p>
+  <p><strong>Delivered by Next Production Dev</strong></p>
+  <p><strong>Mahdi Hazrati</strong></p>
+  <p>© 2025 Breakthrough. Licensed under MIT. Built with ❤️ for the community.</p>
 </div>
