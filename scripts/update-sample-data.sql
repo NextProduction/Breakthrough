@@ -1,4 +1,4 @@
--- Update sample data to reflect the new ICanQuit branding and features
+-- Update sample data to reflect the new Breakthrough branding and features
 -- This script adds promise examples and motivational content
 
 -- Update habits table to include promises

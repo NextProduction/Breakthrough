@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { ArrowLeft, Shield, CalendarIcon, CheckCircle, XCircle, Filter } from "lucide-react"
+import { ArrowLeft, BrainCircuit, CalendarIcon, CheckCircle, XCircle, Filter } from "lucide-react"
 
 interface Habit {
   id: string
@@ -28,7 +28,7 @@ export default function BigCalendar() {
   const [currentDate, setCurrentDate] = useState(new Date())
 
   useEffect(() => {
-    const savedHabits = JSON.parse(localStorage.getItem("icanquit-habits") || "[]")
+    const savedHabits = JSON.parse(localStorage.getItem("Breakthrough-habits") || "[]")
     setHabits(savedHabits)
   }, [])
 
@@ -223,8 +223,8 @@ export default function BigCalendar() {
               <span>Back to Dashboard</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>

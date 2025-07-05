@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Shield, Brain, Heart, TreesIcon as Lungs, Clock, TrendingUp } from "lucide-react"
+import { ArrowLeft, BrainCircuit, Brain, Heart, TreesIcon as Lungs, Clock, TrendingUp } from "lucide-react"
 
 const smokingFacts = [
   {
@@ -147,8 +147,8 @@ export default function Facts() {
               <span>Back to Dashboard</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>

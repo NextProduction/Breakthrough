@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://NextProduction.dev/i-can-quit
+Host: https://NextProduction.dev/breakthrough
 
 # Sitemaps
-Sitemap: https://NextProduction.dev/i-can-quit/sitemap.xml
+Sitemap: https://NextProduction.dev/breakthrough/sitemap.xml

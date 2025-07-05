@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { Plus, Calendar, Trophy, TrendingUp, Shield, User } from "lucide-react"
+import { Plus, Calendar, Trophy, TrendingUp, BrainCircuit, User } from "lucide-react"
 import { DataExportImport } from "@/components/data-export-import"
 
 interface Habit {
@@ -35,12 +35,12 @@ export default function Dashboard() {
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null)
 
   useEffect(() => {
-    const savedHabits = localStorage.getItem("icanquit-habits")
+    const savedHabits = localStorage.getItem("Breakthrough-habits")
     if (savedHabits) {
       setHabits(JSON.parse(savedHabits))
     }
 
-    const savedProfile = localStorage.getItem("icanquit-profile")
+    const savedProfile = localStorage.getItem("Breakthrough-profile")
     if (savedProfile) {
       setUserProfile(JSON.parse(savedProfile))
     }
@@ -78,8 +78,8 @@ export default function Dashboard() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
             <div className="flex items-center space-x-4">
               <DataExportImport />
@@ -196,7 +196,7 @@ export default function Dashboard() {
         {habits.length === 0 ? (
           <Card className="text-center py-12">
             <CardContent>
-              <Shield className="h-16 w-16 text-gray-400 mx-auto mb-4" />
+              <BrainCircuit className="h-16 w-16 text-gray-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">No habits tracked yet</h3>
               <p className="text-gray-600 mb-6">Start your journey by adding your first habit to quit.</p>
               <Link href="/add-habit">

@@ -46,7 +46,7 @@ export function HeroSection() {
                 Explore Features
               </Button>
             </Link>
-            <a href="https://github.com/icanquit/icanquit" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="lg" className="h-14 px-8 text-lg">
                 <Github className="mr-2 h-5 w-5" />
                 View Source

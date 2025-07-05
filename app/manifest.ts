@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "ICanQuit - Open Source Habit Tracker",
-    short_name: "ICanQuit",
+    name: "Breakthrough - Open Source Habit Tracker",
+    short_name: "Breakthrough",
     description:
       "An open-source, science-backed habit tracker to help you quit undesirable habits and build a healthier lifestyle",
     start_url: "/",

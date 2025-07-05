@@ -69,14 +69,14 @@ export function MotivationalQuote({ className = "", showDaily = false }: Motivat
     if (showDaily) {
       // Show same quote for the entire day
       const today = new Date().toDateString()
-      const savedQuote = localStorage.getItem(`icanquit-daily-quote-${today}`)
+      const savedQuote = localStorage.getItem(`Breakthrough-daily-quote-${today}`)
 
       if (savedQuote) {
         setCurrentQuote(JSON.parse(savedQuote))
       } else {
         const randomQuote = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)]
         setCurrentQuote(randomQuote)
-        localStorage.setItem(`icanquit-daily-quote-${today}`, JSON.stringify(randomQuote))
+        localStorage.setItem(`Breakthrough-daily-quote-${today}`, JSON.stringify(randomQuote))
       }
     } else {
       // Random quote each time

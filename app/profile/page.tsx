@@ -9,7 +9,7 @@ import { Label } from "@/components/ui/label"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ArrowLeft, Shield, Trophy, Calendar, Award, Star, Edit3, Save, BarChart3, Target, Clock } from "lucide-react"
+import { ArrowLeft, BrainCircuit, Trophy, Calendar, Award, Star, Edit3, Save, BarChart3, Target, Clock } from "lucide-react"
 import { DataExportImport } from "@/components/data-export-import"
 
 interface UserProfile {
@@ -58,11 +58,11 @@ export default function Profile() {
 
   useEffect(() => {
     // Load habits
-    const savedHabits = JSON.parse(localStorage.getItem("icanquit-habits") || "[]")
+    const savedHabits = JSON.parse(localStorage.getItem("Breakthrough-habits") || "[]")
     setHabits(savedHabits)
 
     // Load profile
-    const savedProfile = localStorage.getItem("icanquit-profile")
+    const savedProfile = localStorage.getItem("Breakthrough-profile")
     if (savedProfile) {
       const parsedProfile = JSON.parse(savedProfile)
       setProfile(parsedProfile)
@@ -113,7 +113,7 @@ export default function Profile() {
 
   const saveProfile = () => {
     setProfile(editProfile)
-    localStorage.setItem("icanquit-profile", JSON.stringify(editProfile))
+    localStorage.setItem("Breakthrough-profile", JSON.stringify(editProfile))
     setIsEditing(false)
   }
 
@@ -174,8 +174,8 @@ export default function Profile() {
             <div className="flex items-center space-x-4">
               <DataExportImport />
               <Link href="/" className="flex items-center space-x-2">
-                <Shield className="h-8 w-8 text-indigo-600" />
-                <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+                <BrainCircuit className="h-8 w-8 text-indigo-600" />
+                <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
               </Link>
             </div>
           </div>

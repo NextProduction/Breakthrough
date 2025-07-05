@@ -34,8 +34,8 @@ export function DataExportImport() {
 
   const exportData = () => {
     try {
-      const habits = JSON.parse(localStorage.getItem("icanquit-habits") || "[]")
-      const profile = JSON.parse(localStorage.getItem("icanquit-profile") || "{}")
+      const habits = JSON.parse(localStorage.getItem("Breakthrough-habits") || "[]")
+      const profile = JSON.parse(localStorage.getItem("Breakthrough-profile") || "{}")
 
       const exportData: ExportData = {
         habits,
@@ -50,7 +50,7 @@ export function DataExportImport() {
 
       const link = document.createElement("a")
       link.href = url
-      link.download = `icanquit-backup-${new Date().toISOString().split("T")[0]}.json`
+      link.download = `Breakthrough-backup-${new Date().toISOString().split("T")[0]}.json`
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
@@ -94,21 +94,21 @@ export function DataExportImport() {
       }
 
       // Backup current data
-      const currentHabits = localStorage.getItem("icanquit-habits")
-      const currentProfile = localStorage.getItem("icanquit-profile")
+      const currentHabits = localStorage.getItem("Breakthrough-habits")
+      const currentProfile = localStorage.getItem("Breakthrough-profile")
 
       if (currentHabits) {
-        localStorage.setItem("icanquit-habits-backup", currentHabits)
+        localStorage.setItem("Breakthrough-habits-backup", currentHabits)
       }
       if (currentProfile) {
-        localStorage.setItem("icanquit-profile-backup", currentProfile)
+        localStorage.setItem("Breakthrough-profile-backup", currentProfile)
       }
 
       // Import new data
-      localStorage.setItem("icanquit-habits", JSON.stringify(data.habits))
+      localStorage.setItem("Breakthrough-habits", JSON.stringify(data.habits))
 
       if (data.profile && Object.keys(data.profile).length > 0) {
-        localStorage.setItem("icanquit-profile", JSON.stringify(data.profile))
+        localStorage.setItem("Breakthrough-profile", JSON.stringify(data.profile))
       }
 
       setImportStatus("success")
@@ -128,14 +128,14 @@ export function DataExportImport() {
 
   const restoreBackup = () => {
     try {
-      const backupHabits = localStorage.getItem("icanquit-habits-backup")
-      const backupProfile = localStorage.getItem("icanquit-profile-backup")
+      const backupHabits = localStorage.getItem("Breakthrough-habits-backup")
+      const backupProfile = localStorage.getItem("Breakthrough-profile-backup")
 
       if (backupHabits) {
-        localStorage.setItem("icanquit-habits", backupHabits)
+        localStorage.setItem("Breakthrough-habits", backupHabits)
       }
       if (backupProfile) {
-        localStorage.setItem("icanquit-profile", backupProfile)
+        localStorage.setItem("Breakthrough-profile", backupProfile)
       }
 
       setImportStatus("success")
@@ -169,7 +169,7 @@ export function DataExportImport() {
             <Alert>
               <FileText className="h-4 w-4" />
               <AlertDescription>
-                This will create a JSON file containing all your ICanQuit data. Keep this file safe as a backup.
+                This will create a JSON file containing all your Breakthrough data. Keep this file safe as a backup.
               </AlertDescription>
             </Alert>
             <div className="flex gap-2">

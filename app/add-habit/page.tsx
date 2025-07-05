@@ -12,7 +12,7 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import {
   ArrowLeft,
-  Shield,
+  BrainCircuit,
   Cigarette,
   Brain,
   Coffee,
@@ -242,7 +242,7 @@ const habitTemplates = [
   {
     id: "custom",
     name: "Custom Habit",
-    icon: Shield,
+    icon: BrainCircuit,
     description: "Create your own habit to quit",
     milestones: [1, 7, 14, 30, 60, 90],
     defaultRewards: {
@@ -336,9 +336,9 @@ export default function AddHabit() {
       createdAt: new Date().toISOString(),
     }
 
-    const existingHabits = JSON.parse(localStorage.getItem("icanquit-habits") || "[]")
+    const existingHabits = JSON.parse(localStorage.getItem("Breakthrough-habits") || "[]")
     existingHabits.push(newHabit)
-    localStorage.setItem("icanquit-habits", JSON.stringify(existingHabits))
+    localStorage.setItem("Breakthrough-habits", JSON.stringify(existingHabits))
 
     router.push("/dashboard")
   }
@@ -354,8 +354,8 @@ export default function AddHabit() {
               <span>Back to Dashboard</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>

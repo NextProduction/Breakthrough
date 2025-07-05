@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Shield, Brain, Calendar, Trophy, Heart, Share2, BarChart3, Clock, Zap, Lock } from "lucide-react"
+import { ArrowLeft, BrainCircuit, Brain, Calendar, Trophy, Heart, Share2, BarChart3, Clock, Zap, Lock } from "lucide-react"
 
 const features = [
   {
@@ -137,8 +137,8 @@ export default function Features() {
               <span>Back to Home</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function Features() {
             Features Based on <span className="text-indigo-600">Neuroscience</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Every feature in ICanQuit is designed based on the latest neuroscience research on habit formation,
+            Every feature in Breakthrough is designed based on the latest neuroscience research on habit formation,
             addiction recovery, and behavioral change.
           </p>
         </div>

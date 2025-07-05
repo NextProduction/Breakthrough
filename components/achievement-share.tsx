@@ -87,15 +87,15 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
     ctx.fillStyle = "#374151"
     ctx.fillText("Every day you choose freedom is a victory! 🎉", 400, 420)
 
-    // ICanQuit branding
+    // Breakthrough branding
     ctx.font = "bold 24px system-ui"
     ctx.fillStyle = "#4f46e5"
-    ctx.fillText("ICanQuit - Open Source Habit Tracker", 400, 480)
+    ctx.fillText("Breakthrough - Open Source Habit Tracker", 400, 480)
 
     // Website
     ctx.font = "16px system-ui"
     ctx.fillStyle = "#6b7280"
-    ctx.fillText("github.com/icanquit/icanquit", 400, 510)
+    ctx.fillText("github.com/Breakthrough/Breakthrough", 400, 510)
 
     // Convert to blob and download
     canvas.toBlob((blob) => {
@@ -103,7 +103,7 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
         const url = URL.createObjectURL(blob)
         const a = document.createElement("a")
         a.href = url
-        a.download = `icanquit-achievement-${achievement.milestone}-days.png`
+        a.download = `Breakthrough-achievement-${achievement.milestone}-days.png`
         document.body.appendChild(a)
         a.click()
         document.body.removeChild(a)
@@ -114,8 +114,8 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
   }
 
   const shareToSocial = (platform: string) => {
-    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. #ICanQuit #HabitTracker #Recovery`
-    const url = "https://NextProduction.dev/i-can-quit"
+    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. #Breakthrough #HabitTracker #Recovery`
+    const url = "https://NextProduction.dev/breakthrough"
 
     let shareUrl = ""
 
@@ -140,7 +140,7 @@ export function AchievementShare({ isOpen, onClose, achievement }: AchievementSh
   }
 
   const copyToClipboard = () => {
-    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. Check out ICanQuit - the open source habit tracker: https://NextProduction.dev/i-can-quit #ICanQuit #HabitTracker #Recovery`
+    const text = `🏆 Just achieved ${achievement.milestone} days without ${achievement.habitName}! Every day I choose freedom is a victory. Check out Breakthrough - the open source habit tracker: https://NextProduction.dev/breakthrough #Breakthrough #HabitTracker #Recovery`
     navigator.clipboard.writeText(text)
   }
 

@@ -15,7 +15,7 @@ INSERT INTO habits (name, description, category, default_milestones) VALUES
 -- Sample achievements that can be unlocked
 INSERT INTO achievements (name, description, icon, milestone_days) VALUES
 ('First Step', 'Completed your first day without the habit', 'trophy', 1),
-('Three Day Warrior', 'Maintained your streak for 3 days', 'shield', 3),
+('Three Day Warrior', 'Maintained your streak for 3 days', 'BrainCircuit', 3),
 ('Week Champion', 'Successfully completed one week', 'star', 7),
 ('Two Week Hero', 'Maintained discipline for two weeks', 'medal', 14),
 ('Monthly Master', 'Achieved a full month of progress', 'crown', 30),

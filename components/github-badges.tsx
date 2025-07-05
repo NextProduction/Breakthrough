@@ -4,19 +4,19 @@ export function GitHubBadges() {
       label: "MIT License",
       message: "MIT",
       color: "blue",
-      link: "https://github.com/icanquit/icanquit/blob/main/LICENSE",
+      link: "https://github.com/Breakthrough/Breakthrough/blob/main/LICENSE",
     },
     {
       label: "PRs",
       message: "welcome",
       color: "brightgreen",
-      link: "https://github.com/icanquit/icanquit/pulls",
+      link: "https://github.com/Breakthrough/Breakthrough/pulls",
     },
     {
       label: "Open Source",
       message: "❤️",
       color: "red",
-      link: "https://github.com/icanquit/icanquit",
+      link: "https://github.com/Breakthrough/Breakthrough",
     },
     {
       label: "Built with",
@@ -34,7 +34,7 @@ export function GitHubBadges() {
       label: "Stars",
       message: "⭐",
       color: "yellow",
-      link: "https://github.com/icanquit/icanquit/stargazers",
+      link: "https://github.com/Breakthrough/Breakthrough/stargazers",
     },
   ]
 
@@ -49,7 +49,7 @@ export function GitHubBadges() {
           className="hover:opacity-80 transition-opacity"
         >
           <img
-            src={`https://img.shields.io/badge/${encodeURIComponent(badge.label)}-${encodeURIComponent(badge.message)}-${badge.color}.svg`}
+            src={`https://img.BrainCircuits.io/badge/${encodeURIComponent(badge.label)}-${encodeURIComponent(badge.message)}-${badge.color}.svg`}
             alt={`${badge.label} ${badge.message}`}
             className="h-5"
           />

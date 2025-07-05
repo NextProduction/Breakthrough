@@ -9,7 +9,7 @@ import { CTASection } from "@/components/cta-section"
 import { StructuredData } from "@/components/structured-data"
 import { GitHubBadges } from "@/components/github-badges"
 import {
-  Shield,
+  BrainCircuit,
   Calendar,
   Trophy,
   Brain,
@@ -36,7 +36,7 @@ export default function LandingPage() {
   const testimonials = [
     {
       quote:
-        "ICanQuit helped me understand what was happening in my brain during recovery. The neuroscience insights kept me motivated when things got tough.",
+        "Breakthrough helped me understand what was happening in my brain during recovery. The neuroscience insights kept me motivated when things got tough.",
       author: "Sarah M.",
       role: "30 days smoke-free",
       rating: 5,
@@ -59,7 +59,7 @@ export default function LandingPage() {
 
   // Structured data for SEO
   const appStructuredData = {
-    name: "ICanQuit",
+    name: "Breakthrough",
     description: "Open source, neuroscience-backed habit tracker to help you break free from harmful habits",
     applicationCategory: "HealthApplication",
     operatingSystem: "Web",
@@ -68,7 +68,7 @@ export default function LandingPage() {
       price: "0",
       priceCurrency: "USD",
     },
-    screenshot: "https://NextProduction.dev/i-can-quit/screenshot.png",
+    screenshot: "https://NextProduction.dev/breakthrough/screenshot.png",
     featureList:
       "Privacy-First Design, Visual Progress Tracking, Achievement System, Neuroscience Education, Promise System, Open Source Community",
   }
@@ -76,7 +76,7 @@ export default function LandingPage() {
   return (
     <>
       {/* <SEO
-        title="ICanQuit - Break Free from Bad Habits | Open Source Habit Tracker"
+        title="Breakthrough - Break Free from Bad Habits | Open Source Habit Tracker"
         description="The neuroscience-backed habit tracker that helps you overcome unwanted habits with personalized insights, rewards, and a supportive community."
       /> */}
       <StructuredData type="WebApplication" data={appStructuredData} />
@@ -111,7 +111,7 @@ export default function LandingPage() {
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <FeatureCard
-                  icon={Shield}
+                  icon={BrainCircuit}
                   title="Privacy-First Design"
                   description="All your data is stored locally in your browser. No servers, no tracking, complete privacy and control."
                   iconColor="text-indigo-600"
@@ -210,12 +210,12 @@ export default function LandingPage() {
           </section>
 
           {/* Testimonials Section */}
-          <section className="bg-slate-50 py-20">
+          {/* <section className="bg-slate-50 py-20">
             <div className="container mx-auto px-4">
               <div className="mb-12 text-center">
                 <h2 className="mb-4 text-4xl font-bold text-slate-900">Success Stories</h2>
                 <p className="mx-auto max-w-3xl text-xl text-slate-600">
-                  Real people, real results. See how ICanQuit has helped others break free from unwanted habits.
+                  Real people, real results. See how Breakthrough has helped others break free from unwanted habits.
                 </p>
               </div>
 
@@ -225,7 +225,7 @@ export default function LandingPage() {
                 ))}
               </div>
             </div>
-          </section>
+          </section> */}
 
           {/* More Features Section */}
           <section className="bg-white py-20">
@@ -287,7 +287,7 @@ export default function LandingPage() {
                 />
 
                 <FeatureCard
-                  icon={Shield}
+                  icon={BrainCircuit}
                   title="UUID-Based System"
                   description="Robust habit identification and data integrity with UUID-based IDs."
                   iconColor="text-red-600"
@@ -308,7 +308,7 @@ export default function LandingPage() {
           {/* CTA Section */}
           <CTASection
             title="Ready to Transform Your Life?"
-            description="Join thousands who have successfully quit their bad habits with ICanQuit. Your journey to freedom starts with a single click."
+            description="Join thousands who have successfully quit their bad habits with Breakthrough. Your journey to freedom starts with a single click."
             primaryButtonText="Start Your Journey Now"
             primaryButtonLink="/dashboard"
             secondaryButtonText="Explore Features"

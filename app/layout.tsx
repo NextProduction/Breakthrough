@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ICanQuit - Open Source Habit Tracker",
+  title: "Breakthrough - Open Source Habit Tracker",
   description:
     "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker. Track progress, unlock achievements, and build a healthier lifestyle.",
   keywords: [
@@ -18,29 +18,29 @@ export const metadata: Metadata = {
     "self-improvement",
     "open source",
   ],
-  authors: [{ name: "ICanQuit Community" }],
-  creator: "ICanQuit",
-  publisher: "ICanQuit Community",
+  authors: [{ name: "Breakthrough Community" }],
+  creator: "Breakthrough",
+  publisher: "Breakthrough Community",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://NextProduction.dev/i-can-quit"),
+  metadataBase: new URL("https://NextProduction.dev/breakthrough"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "ICanQuit - Open Source Habit Tracker",
+    title: "Breakthrough - Open Source Habit Tracker",
     description: "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker.",
-    url: "https://NextProduction.dev/i-can-quit",
-    siteName: "ICanQuit",
+    url: "https://NextProduction.dev/breakthrough",
+    siteName: "Breakthrough",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ICanQuit Habit Tracker",
+        alt: "Breakthrough Habit Tracker",
       },
     ],
     locale: "en_US",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ICanQuit - Open Source Habit Tracker",
+    title: "Breakthrough - Open Source Habit Tracker",
     description: "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker.",
     images: ["/og-image.png"],
   },
@@ -79,7 +79,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#4f46e5" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="ICanQuit" />
+        <meta name="apple-mobile-web-app-title" content="Breakthrough" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       </head>

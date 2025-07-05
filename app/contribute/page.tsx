@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Shield, Github, Code, Users, Heart, Bug, Lightbulb, BookOpen } from "lucide-react"
+import { ArrowLeft, BrainCircuit, Github, Code, Users, Heart, Bug, Lightbulb, BookOpen } from "lucide-react"
 import { GitHubBadges } from "@/components/github-badges"
 
 export default function Contribute() {
@@ -17,8 +17,8 @@ export default function Contribute() {
               <span>Back to Home</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Contribute() {
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Contribute to ICanQuit</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Contribute to Breakthrough</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             Help us build the best open-source habit tracker. Every contribution makes a difference in someone's journey
             to freedom.
@@ -37,7 +37,7 @@ export default function Contribute() {
 
         {/* Quick Links */}
         <div className="grid md:grid-cols-4 gap-4 mb-12">
-          <a href="https://github.com/icanquit/icanquit" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <Github className="h-8 w-8 mx-auto mb-2 text-gray-700" />
@@ -47,7 +47,7 @@ export default function Contribute() {
             </Card>
           </a>
 
-          <a href="https://github.com/icanquit/icanquit/issues" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Breakthrough/Breakthrough/issues" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <Bug className="h-8 w-8 mx-auto mb-2 text-red-600" />
@@ -57,7 +57,7 @@ export default function Contribute() {
             </Card>
           </a>
 
-          <a href="https://github.com/icanquit/icanquit/discussions" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Breakthrough/Breakthrough/discussions" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <Lightbulb className="h-8 w-8 mx-auto mb-2 text-yellow-600" />
@@ -67,7 +67,7 @@ export default function Contribute() {
             </Card>
           </a>
 
-          <a href="https://github.com/icanquit/icanquit/wiki" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Breakthrough/Breakthrough/wiki" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <BookOpen className="h-8 w-8 mx-auto mb-2 text-blue-600" />
@@ -155,7 +155,7 @@ export default function Contribute() {
                     <span className="text-2xl font-bold text-blue-600">1</span>
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Fork the Repository</h3>
-                  <p className="text-gray-600">Create your own copy of the ICanQuit repository on GitHub.</p>
+                  <p className="text-gray-600">Create your own copy of the Breakthrough repository on GitHub.</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
@@ -259,13 +259,13 @@ export default function Contribute() {
                 contribution, no matter how small, makes a real difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://github.com/icanquit/icanquit" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" variant="secondary">
                     <Github className="h-4 w-4 mr-2" />
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://discord.gg/icanquit" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.gg/Breakthrough" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
                     variant="outline"

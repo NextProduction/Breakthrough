@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://NextProduction.dev/i-can-quit"
+  const baseUrl = "https://NextProduction.dev/breakthrough"
 
   return [
     {

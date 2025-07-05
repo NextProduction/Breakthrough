@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Shield, Github, Heart, Users, Brain, Zap, Globe, Code, Star } from "lucide-react"
+import { ArrowLeft, BrainCircuit, Github, Heart, Users, Brain, Zap, Globe, Code, Star } from "lucide-react"
 
 export default function About() {
   return (
@@ -16,8 +16,8 @@ export default function About() {
               <span>Back to Home</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>
@@ -27,9 +27,9 @@ export default function About() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="w-24 h-24 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Shield className="h-12 w-12 text-indigo-600" />
+            <BrainCircuit className="h-12 w-12 text-indigo-600" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">About ICanQuit</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">About Breakthrough</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             The first open-source, neuroscience-backed habit tracker designed to help millions break free from harmful
             habits and build healthier lives.
@@ -53,7 +53,7 @@ export default function About() {
 
         {/* Why We Built This */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Why We Built ICanQuit</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Why We Built Breakthrough</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
@@ -71,7 +71,7 @@ export default function About() {
 
             <Card>
               <CardHeader>
-                <Shield className="h-8 w-8 text-green-600 mb-2" />
+                <BrainCircuit className="h-8 w-8 text-green-600 mb-2" />
                 <CardTitle>Privacy-First Design</CardTitle>
               </CardHeader>
               <CardContent>
@@ -90,7 +90,7 @@ export default function About() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 leading-relaxed">
-                  We believe the best tools are built by communities, not corporations. By making ICanQuit open source,
+                  We believe the best tools are built by communities, not corporations. By making Breakthrough open source,
                   we ensure it will always be free, transparent, and continuously improved by people who actually use
                   it.
                 </p>
@@ -138,7 +138,7 @@ export default function About() {
 
             <div className="text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="h-8 w-8 text-green-600" />
+                <BrainCircuit className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Privacy-First</h3>
               <p className="text-gray-600">
@@ -158,7 +158,7 @@ export default function About() {
                 Technology Stack
               </CardTitle>
               <CardDescription>
-                ICanQuit is built with cutting-edge web technologies for performance, reliability, and user experience.
+                Breakthrough is built with cutting-edge web technologies for performance, reliability, and user experience.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -271,12 +271,12 @@ export default function About() {
         <section className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Get Involved</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            ICanQuit is built by people like you. Whether you're a developer, designer, researcher, or someone with
+            Breakthrough is built by people like you. Whether you're a developer, designer, researcher, or someone with
             lived experience, your contribution can help millions of people break free from harmful habits.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://github.com/icanquit/icanquit" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button size="lg">
                 <Github className="h-5 w-5 mr-2" />
                 Contribute on GitHub
@@ -284,7 +284,7 @@ export default function About() {
             </a>
             <Link href="/dashboard">
               <Button size="lg" variant="outline">
-                Start Using ICanQuit
+                Start Using Breakthrough
               </Button>
             </Link>
           </div>

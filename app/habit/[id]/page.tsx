@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { Calendar } from "@/components/ui/calendar"
-import { ArrowLeft, Shield, CheckCircle, XCircle, Trophy, Share2 } from "lucide-react"
+import { ArrowLeft, BrainCircuit, CheckCircle, XCircle, Trophy, Share2 } from "lucide-react"
 import { AchievementShare } from "@/components/achievement-share"
 import { PromiseReminder } from "@/components/promise-reminder"
 import { CelebrationModal } from "@/components/celebration-modal"
@@ -42,14 +42,14 @@ export default function HabitDetail() {
   const [userProfile, setUserProfile] = useState<any>(null)
 
   useEffect(() => {
-    const savedHabits = JSON.parse(localStorage.getItem("icanquit-habits") || "[]")
+    const savedHabits = JSON.parse(localStorage.getItem("Breakthrough-habits") || "[]")
     const foundHabit = savedHabits.find((h: Habit) => h.id === params.id)
     if (foundHabit) {
       setHabit(foundHabit)
     }
 
     // Load user profile
-    const savedProfile = localStorage.getItem("icanquit-profile")
+    const savedProfile = localStorage.getItem("Breakthrough-profile")
     if (savedProfile) {
       setUserProfile(JSON.parse(savedProfile))
     }
@@ -114,11 +114,11 @@ export default function HabitDetail() {
     setHabit(updatedHabit)
 
     // Save to localStorage
-    const allHabits = JSON.parse(localStorage.getItem("icanquit-habits") || "[]")
+    const allHabits = JSON.parse(localStorage.getItem("Breakthrough-habits") || "[]")
     const habitIndex = allHabits.findIndex((h: Habit) => h.id === habit.id)
     if (habitIndex !== -1) {
       allHabits[habitIndex] = updatedHabit
-      localStorage.setItem("icanquit-habits", JSON.stringify(allHabits))
+      localStorage.setItem("Breakthrough-habits", JSON.stringify(allHabits))
     }
 
     // Show celebrations
@@ -188,7 +188,7 @@ export default function HabitDetail() {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <Shield className="h-16 w-16 text-gray-400 mx-auto mb-4" />
+          <BrainCircuit className="h-16 w-16 text-gray-400 mx-auto mb-4" />
           <h2 className="text-xl font-semibold text-gray-900 mb-2">Habit not found</h2>
           <Link href="/dashboard">
             <Button>Back to Dashboard</Button>
@@ -209,8 +209,8 @@ export default function HabitDetail() {
               <span>Back to Dashboard</span>
             </Link>
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-2xl font-bold text-gray-900">ICanQuit</span>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
+              <span className="text-2xl font-bold text-gray-900">Breakthrough</span>
             </Link>
           </div>
         </div>

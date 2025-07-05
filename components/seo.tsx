@@ -13,15 +13,15 @@ interface SEOProps {
 }
 
 export function SEO({
-  title = "ICanQuit - Break Free from Bad Habits",
+  title = "Breakthrough - Break Free from Bad Habits",
   description = "The open-source, neuroscience-backed habit tracker designed to help you overcome unwanted habits with privacy-first tracking.",
   canonicalUrl,
   ogType = "website",
   ogImage = "/og-image.png",
-  twitterHandle = "@icanquitapp",
+  twitterHandle = "@Breakthroughapp",
 }: SEOProps) {
   const router = useRouter()
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://NextProduction.dev/i-can-quit"
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://NextProduction.dev/breakthrough"
   const canonicalUrlFull = canonicalUrl ? `${siteUrl}${canonicalUrl}` : `${siteUrl}${router.asPath}`
   const ogImageUrl = ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`
 
@@ -39,7 +39,7 @@ export function SEO({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImageUrl} />
-      <meta property="og:site_name" content="ICanQuit" />
+      <meta property="og:site_name" content="Breakthrough" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />

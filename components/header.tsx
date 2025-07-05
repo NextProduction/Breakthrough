@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
-import { Shield, Menu, X, Github } from "lucide-react"
+import { BrainCircuit, Menu, X, Github } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 
 export function Header() {
@@ -38,14 +38,13 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="relative">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <div className="absolute -right-1 -top-1 h-3 w-3 animate-pulse rounded-full bg-green-500"></div>
+              <BrainCircuit className="h-8 w-8 text-indigo-600" />
             </div>
             <Link href="/" className="text-2xl font-bold text-slate-900">
-              ICanQuit
+              Breakthrough
             </Link>
-            <Badge variant="secondary" className="bg-green-100 text-xs text-green-800">
-              Open Source
+            <Badge variant="secondary" className="bg-black text-xs text-white hover:bg-black">
+              By NextProduction.dev
             </Badge>
           </div>
 
@@ -66,7 +65,7 @@ export function Header() {
                 Science
               </Button>
             </Link>
-            <a href="https://github.com/icanquit/icanquit" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" className="text-slate-700 hover:text-slate-900">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
@@ -108,7 +107,7 @@ export function Header() {
                 Science
               </Button>
             </Link>
-            <a href="https://github.com/icanquit/icanquit" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" className="w-full justify-start text-slate-700">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub

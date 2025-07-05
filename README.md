@@ -1,4 +1,4 @@
-# 🛡️ I Can Quit - Neuroscience-Based Habit Tracker
+# 🛡️ Breakthrough- Neuroscience-Based Habit Tracker
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -62,8 +62,8 @@
 
 1. **Clone the repository**
 \`\`\`bash
-git clone https://github.com/NextProduction/i-can-quit.git
-cd icanquit
+git clone https://github.com/NextProduction/breakthrough.git
+cd Breakthrough
 \`\`\`
 
 2. **Install dependencies**
@@ -108,10 +108,10 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 - **Data Export**: Backup your progress regularly
 - **Multiple Habits**: Track several habits simultaneously
 
-## 🧬 The Science Behind ICanQuit
+## 🧬 The Science Behind Breakthrough
 
 ### Neuroplasticity & Recovery
-ICanQuit is built on cutting-edge neuroscience research:
+Breakthrough is built on cutting-edge neuroscience research:
 
 - **Days 1-3**: Initial neurochemical adjustment begins
 - **Week 1**: New neural pathways start forming
@@ -180,7 +180,7 @@ We welcome contributions from the community! Here's how you can help:
 - 🔧 **Code Contributions**: Submit pull requests
 - 📚 **Documentation**: Help improve our docs
 - 🧪 **Testing**: Help test new features
-- 🌍 **Translations**: Help make ICanQuit global
+- 🌍 **Translations**: Help make Breakthrough global
 
 ### Development Setup
 1. Fork the repository
@@ -217,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 **Email**: Contact us directly for support
 
 ### Stay Connected
-- ⭐ **Star this repo** if ICanQuit helps you!
+- ⭐ **Star this repo** if Breakthrough helps you!
 - 🐦 **Follow us** for updates and tips
 - 📢 **Share your success** stories with the community
 - 🤝 **Contribute** to help others on their journey
@@ -226,7 +226,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Success Stories
 
-> *"ICanQuit helped me understand what was happening in my brain during recovery. The neuroscience insights kept me motivated when things got tough."* - Sarah M.
+> *"Breakthrough helped me understand what was happening in my brain during recovery. The neuroscience insights kept me motivated when things got tough."* - Sarah M.
 
 > *"The custom rewards system was a game-changer. Having something to look forward to at each milestone made all the difference."* - Mike R.
 
@@ -234,11 +234,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Ready to transform your life? Start your journey with ICanQuit today!** 🚀
+**Ready to transform your life? Start your journey with Breakthrough today!** 🚀
 
 ---
 
 <div align="center">
   <p><strong>Delivered by Next Production</strong></p>
-  <p>© 2024 ICanQuit. Licensed under MIT. Built with ❤️ for the community.</p>
+  <p>© 2024 Breakthrough. Licensed under MIT. Built with ❤️ for the community.</p>
 </div>
