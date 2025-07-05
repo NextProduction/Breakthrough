@@ -1,6 +1,8 @@
 {
   "name": "breakthrough",
   "homepage": "https://breakthrough.nextproduction.dev",
+  "description": "Neuroscience-Based Habit Tracker",
+  "author": "Mahdi Hazrati @ Next Production Dev",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
