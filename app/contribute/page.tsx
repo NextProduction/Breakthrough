@@ -265,13 +265,13 @@ export default function Contribute() {
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://discord.gg/Breakthrough" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/NextProduction/Breakthrough/discussions" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
                     variant="outline"
-                    className="text-white border-white hover:bg-white hover:text-indigo-600"
+                    className="text-indigo-600 border-white hover:bg-white hover:text-indigo-600"
                   >
-                    Join Discord
+                    Join Our Community
                   </Button>
                 </a>
               </div>

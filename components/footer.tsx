@@ -96,12 +96,6 @@ export function Footer() {
               >
                 License
               </a>
-              <Link href="/privacy" className="text-slate-400 transition-colors hover:text-white">
-                Privacy
-              </Link>
-              <Link href="/terms" className="text-slate-400 transition-colors hover:text-white">
-                Terms
-              </Link>
             </div>
           </div>
         </div>
@@ -109,7 +103,7 @@ export function Footer() {
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-slate-400">
           <p>&copy; {currentYear} Breakthrough. Open source under MIT License.</p>
           <p className="mt-2 text-sm">
-            <span className="font-semibold text-indigo-400">Delivered by Next Production</span> • Made with ❤️ by the
+            <span className="font-semibold text-indigo-400">Delivered by Next Production Dev</span> • Made with ❤️ by the
             Breakthrough Community
           </p>
         </div>
