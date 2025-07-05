@@ -18,7 +18,7 @@ export function SEO({
   canonicalUrl,
   ogType = "website",
   ogImage = "/og-image.png",
-  twitterHandle = "@Breakthroughapp",
+  twitterHandle = "@BreakthroughByNextProduction",
 }: SEOProps) {
   const router = useRouter()
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://NextProduction.dev/breakthrough"

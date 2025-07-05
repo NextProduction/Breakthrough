@@ -4,19 +4,19 @@ export function GitHubBadges() {
       label: "MIT License",
       message: "MIT",
       color: "blue",
-      link: "https://github.com/Breakthrough/Breakthrough/blob/main/LICENSE",
+      link: "https://github.com/NextProduction/Breakthrough/blob/main/LICENSE",
     },
     {
       label: "PRs",
       message: "welcome",
       color: "brightgreen",
-      link: "https://github.com/Breakthrough/Breakthrough/pulls",
+      link: "https://github.com/NextProduction/Breakthrough/pulls",
     },
     {
       label: "Open Source",
       message: "❤️",
       color: "red",
-      link: "https://github.com/Breakthrough/Breakthrough",
+      link: "https://github.com/NextProduction/Breakthrough",
     },
     {
       label: "Built with",
@@ -34,7 +34,7 @@ export function GitHubBadges() {
       label: "Stars",
       message: "⭐",
       color: "yellow",
-      link: "https://github.com/Breakthrough/Breakthrough/stargazers",
+      link: "https://github.com/NextProduction/Breakthrough/stargazers",
     },
   ]
 

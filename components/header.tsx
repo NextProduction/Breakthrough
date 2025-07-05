@@ -65,7 +65,7 @@ export function Header() {
                 Science
               </Button>
             </Link>
-            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/NextProduction/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" className="text-slate-700 hover:text-slate-900">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
@@ -107,7 +107,7 @@ export function Header() {
                 Science
               </Button>
             </Link>
-            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/NextProduction/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" className="w-full justify-start text-slate-700">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub

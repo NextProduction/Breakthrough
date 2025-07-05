@@ -17,22 +17,13 @@ export function Footer() {
             <p className="mb-4 text-slate-400">Open source habit tracker for a healthier you.</p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/Breakthrough/Breakthrough"
+                href="https://github.com/NextProduction/Breakthrough"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 transition-colors hover:text-white"
                 aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
-              </a>
-              <a
-                href="https://twitter.com/Breakthroughapp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-400 transition-colors hover:text-white"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -61,7 +52,7 @@ export function Footer() {
             <h3 className="mb-4 font-semibold">Community</h3>
             <div className="flex flex-col space-y-2">
               <a
-                href="https://github.com/Breakthrough/Breakthrough"
+                href="https://github.com/NextProduction/Breakthrough"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 transition-colors hover:text-white"
@@ -69,7 +60,7 @@ export function Footer() {
                 GitHub
               </a>
               <a
-                href="https://github.com/Breakthrough/Breakthrough/discussions"
+                href="https://github.com/NextProduction/Breakthrough/discussions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 transition-colors hover:text-white"
@@ -77,7 +68,7 @@ export function Footer() {
                 Discussions
               </a>
               <a
-                href="https://github.com/Breakthrough/Breakthrough/issues"
+                href="https://github.com/NextProduction/Breakthrough/issues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 transition-colors hover:text-white"
@@ -98,7 +89,7 @@ export function Footer() {
                 About Project
               </Link>
               <a
-                href="https://github.com/Breakthrough/Breakthrough/blob/main/LICENSE"
+                href="https://github.com/NextProduction/Breakthrough/blob/main/LICENSE"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 transition-colors hover:text-white"

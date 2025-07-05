@@ -276,7 +276,7 @@ export default function About() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/NextProduction/Breakthrough" target="_blank" rel="noopener noreferrer">
               <Button size="lg">
                 <Github className="h-5 w-5 mr-2" />
                 Contribute on GitHub

@@ -37,7 +37,7 @@ export default function Contribute() {
 
         {/* Quick Links */}
         <div className="grid md:grid-cols-4 gap-4 mb-12">
-          <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/NextProduction/Breakthrough" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <Github className="h-8 w-8 mx-auto mb-2 text-gray-700" />
@@ -47,7 +47,7 @@ export default function Contribute() {
             </Card>
           </a>
 
-          <a href="https://github.com/Breakthrough/Breakthrough/issues" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/NextProduction/Breakthrough/issues" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <Bug className="h-8 w-8 mx-auto mb-2 text-red-600" />
@@ -57,7 +57,7 @@ export default function Contribute() {
             </Card>
           </a>
 
-          <a href="https://github.com/Breakthrough/Breakthrough/discussions" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/NextProduction/Breakthrough/discussions" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <Lightbulb className="h-8 w-8 mx-auto mb-2 text-yellow-600" />
@@ -67,7 +67,7 @@ export default function Contribute() {
             </Card>
           </a>
 
-          <a href="https://github.com/Breakthrough/Breakthrough/wiki" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/NextProduction/Breakthrough/wiki" target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
               <CardContent className="p-6 text-center">
                 <BookOpen className="h-8 w-8 mx-auto mb-2 text-blue-600" />
@@ -259,7 +259,7 @@ export default function Contribute() {
                 contribution, no matter how small, makes a real difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://github.com/Breakthrough/Breakthrough" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/NextProduction/Breakthrough" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" variant="secondary">
                     <Github className="h-4 w-4 mr-2" />
                     View on GitHub
