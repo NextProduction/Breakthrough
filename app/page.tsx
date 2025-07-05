@@ -75,10 +75,6 @@ export default function LandingPage() {
 
   return (
     <>
-      <SEO
-        title="Breakthrough - Break Free from Bad Habits | Open Source Habit Tracker"
-        description="The neuroscience-backed habit tracker that helps you overcome unwanted habits with personalized insights, rewards, and a supportive community."
-      />
       <StructuredData type="WebApplication" data={appStructuredData} />
 
       <div className="flex min-h-screen flex-col">

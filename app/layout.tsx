@@ -20,24 +20,24 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Breakthrough Community" }],
   creator: "Breakthrough",
-  publisher: "Breakthrough Community",
+  publisher: "Next Production",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://https://breakthrough.nextproduction.dev"),
+  metadataBase: new URL("https://breakthrough.nextproduction.dev"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Breakthrough - Open Source Habit Tracker",
     description: "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker.",
-    url: "https://https://breakthrough.nextproduction.dev",
+    url: "https://breakthrough.nextproduction.dev",
     siteName: "Breakthrough",
     images: [
       {
-        url: "/og-image.png",
+        url: "/breakthrough.svg",
         width: 1200,
         height: 630,
         alt: "Breakthrough Habit Tracker",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Breakthrough - Open Source Habit Tracker",
     description: "Break free from bad habits with our open-source, privacy-first, science-backed habit tracker.",
-    images: ["/og-image.png"],
+    images: ["/breakthrough.svg"],
   },
   robots: {
     index: true,
@@ -73,15 +73,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/Breakthrough.svg" type="image/svg+xml" />
+        <link rel="icon" href="/Breakthrough.svg" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#4f46e5" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Breakthrough" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <link rel="icon" href="/Breakthrough.svg" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <script defer src="https://platform.analytick.ir/script.js" data-website-id="62a50875-e436-4c47-81cf-48dc56a191ec"></script>
       </head>
