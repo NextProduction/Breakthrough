@@ -2,7 +2,6 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     domains: ['github.com', 'img.shields.io'],
     formats: ['image/avif', 'image/webp'],
