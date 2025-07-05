@@ -103,7 +103,7 @@ export function Footer() {
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-slate-400">
           <p>&copy; {currentYear} Breakthrough. Open source under MIT License.</p>
           <p className="mt-2 text-sm">
-            <span className="font-semibold text-indigo-400">Delivered by Next Production Dev</span> • Made with ❤️ by the
+            <span className="font-semibold text-indigo-400">Delivered by <Link href="https://nextproduction.dev/?utm_source=breakthrough-app&&utm_medium=footer">Next Production Dev</Link></span> • Made with ❤️ by the
             Breakthrough Community
           </p>
         </div>

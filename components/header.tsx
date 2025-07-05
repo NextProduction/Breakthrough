@@ -29,9 +29,8 @@ export function Header() {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/90 shadow-sm backdrop-blur" : "bg-transparent"
-      }`}
+      className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/90 shadow-sm backdrop-blur" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
@@ -44,7 +43,7 @@ export function Header() {
               Breakthrough
             </Link>
             <Badge variant="secondary" className="bg-black text-xs text-white hover:bg-black">
-              By NextProduction.dev
+              By  <Link className="ml-1" href="https://nextproduction.dev/?utm_source=breakthrough-app&&utm_medium=header">NextProduction.dev</Link>
             </Badge>
           </div>
 
