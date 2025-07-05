@@ -82,6 +82,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Breakthrough" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <script defer src="https://platform.analytick.ir/script.js" data-website-id="62a50875-e436-4c47-81cf-48dc56a191ec"></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
